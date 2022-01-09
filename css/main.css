@@ -78,9 +78,22 @@ main{
 
 
 .Main_buscador{
-    border-radius: 10px;
-    height: 30px;
+    border-radius: 30px;
+    height: 40px;
+    width: 600px;
+    border: 1px solid var(--border-input-color);
+
+}
+
+.Main_buscador:hover{
+    
+box-shadow: 1px 1px 1px 1px var(--text-footer-color) ;
+}
+
+.Main_input{
+    border: none;
     width: 500px;
+    outline: none;
 }
 
 
@@ -88,20 +101,15 @@ main{
 button{
     margin-top: 40px;
     margin-left: 5px;
-    width: 140px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     border: 0px solid var(--border-input-color);
     background-color: var(--fondo-botones-color);
     font-weight: normal;
-    color: rgb(138, 136, 136);
+    color: var(--text-main-color);
 }
 
-.main_text_bootom{
-    text-align: center;
-    padding: 15px;
-    color: var(--text-main-color);
-    
-    }
+
 
 /* Clases del footer*/
 
